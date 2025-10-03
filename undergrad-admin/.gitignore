@@ -67,3 +67,40 @@ node_modules/
 
 # dataconnect generated files
 .dataconnect
+
+# ========== ADD THESE ==========
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Firebase Service Account (CRITICAL)
+firebase-service-account.json
+firebase_service_account.json
+
+# FastAPI
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Database
+*.db
+*.sqlite3
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
